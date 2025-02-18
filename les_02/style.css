@@ -1,0 +1,46 @@
+.card{
+   width: 400px;
+   height: 650px;
+   background-color: #87CEEB;
+   border-radius: 60px;
+}
+
+.photo {
+   width: 40%;
+   padding: 10px;
+   # padding - это внутренний отступ
+   # Для внешних отступов используется margin
+}
+.info {
+   padding: 40px;
+   height: 40%;
+}
+img {
+   position: relative;
+   left:45%;
+   border-radius: 20px;
+   vertical-align: bottom;
+}
+p {
+    font-family: Arial, sans-serif; /* Устанавливает шрифт Arial */
+    color: #333333; /* Темно-серый цвет шрифта */
+    margin-top: 10px;
+}
+h1 {
+    font-family: Arial, sans-serif; /* Устанавливает шрифт Arial */
+    color: #333333; /* Темно-серый цвет шрифта */
+    margin-top: 10px;
+}
+h1:hover {
+    color: #9400D3;
+    transition: 1s
+}
+.card:hover {
+    background-color: #FFDAB9;
+    transition: 1s;
+}
+.container {
+            display: grid; /* Устанавливаем grid-контейнер */
+            grid-template-columns: repeat(3, 1fr); /* Создаем три колонки одинаковой ширины */
+            gap: 20px; /* Устанавливаем отступы между элементами */
+        }
